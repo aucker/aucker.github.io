@@ -214,10 +214,12 @@
 <ul>
 <li>cd 到博客文件目录下，执行<code>hexo new &quot;NewBlog&quot;</code>,可以看到新建一个名为NewBlog.md的文件在目录[filename]/source/_posts下，可以使用vim对该文档编辑。</li>
 <li>文章编辑完成之后，可以发布到github page上，执行：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
 </li>
 </ul>
 <hr>
-<p><strong>7. 更换主题</strong><br>默认主题为landscape，可以进行自定义。如Ada<br>cd到博客所在目录，执行：</p>
+<p><strong>7. 更换主题</strong></p>
+<p>默认主题为landscape，可以进行自定义。如Ada<br>cd到博客所在目录，执行：</p>
 <p><code>git clone https://github.com/litten/hexo-theme-yilia themes/yilia</code></p>
 <p>之后，将_config.yml文件中的theme后的landscape改为yilia就可以了。之后</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean      &#x2F;&#x2F;清除缓存文件（db.json）和静态文件（public）</span><br><span class="line">hexo g          &#x2F;&#x2F;生成缓存和静态文件</span><br><span class="line">hexo s          &#x2F;&#x2F;重新部署到服务器</span><br></pre></td></tr></table></figure>
